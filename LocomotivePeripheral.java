@@ -1,4 +1,3 @@
-package roboMapper;
 
 public interface LocomotivePeripheral {
 	
