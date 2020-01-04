@@ -10,13 +10,13 @@ public class javax	{
 		
 		String wantedPortName = "/dev/ttyS0";
 
-		Enumeration portIdentifiers = CommPortIdentifier.getPortIdentifiers()<br>;
+		Enumeration<br> portIdentifiers = CommPortIdentifier.getPortIdentifiers();
 
 		CommPortIdentifier portId = null;
 
 		while (portIdentifiers.hasMoreElements())	{
 			
-			private CommPortIdentifier pid = (CommPortIdentifier) portIdentifiers.nextElement();
+			CommPortIdentifier pid = (CommPortIdentifier) portIdentifiers.nextElement();
 			
 			if (pid.getPortType() == CommPortIdentifier.PORT_SERIAL && pid.getName().equals(wantedPortName))	{
 				
