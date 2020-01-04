@@ -10,7 +10,7 @@ public class javax	{
 		
 		String wantedPortName = "/dev/ttyS0";
 
-		Enumeration portIdentifiers = CommPortIdentifier.getPortIdentifiers(); <br>
+		Enumeration portIdentifiers = CommPortIdentifier.getPortIdentifiers()<br>;
 
 		CommPortIdentifier portId = null;
 
