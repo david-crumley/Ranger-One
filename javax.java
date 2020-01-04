@@ -1,17 +1,18 @@
 
+import javax.comm.*;
+import java.util.*;
+
 public class javax	{
 
-	import javax.comm.*;
-	import java.util.*;
 	
 	public static void main (String args[])	{
 
 		
-		private String wantedPortName = "/dev/ttyS0";
+		String wantedPortName = "/dev/ttyS0";
 
-		private Enumeration portIdentifiers = CommPortIdentifier.getPortIdentifiers(); <br>
+		Enumeration portIdentifiers = CommPortIdentifier.getPortIdentifiers(); <br>
 
-		private CommPortIdentifier portId = null;
+		CommPortIdentifier portId = null;
 
 		while (portIdentifiers.hasMoreElements())	{
 			
