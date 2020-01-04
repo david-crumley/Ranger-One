@@ -28,7 +28,7 @@ public class javax	{
 		if (portId == null)	{
 			
 			System.err.println ("Could not find serial port " + wantedPortName);
-			System.exit.(1);
+			
 			
 		}
 
